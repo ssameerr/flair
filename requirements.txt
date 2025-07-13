@@ -11,3 +11,4 @@ sqlitedict==1.6.0
 deprecated==1.2.4
 hyperopt==0.1.1
 pytorch-pretrained-bert==0.4.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
