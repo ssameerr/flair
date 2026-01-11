@@ -1,4 +1,4 @@
-torch==1.0.0
+torch==2.9.0
 gensim==3.4.0
 typing==3.6.4
 pytest==3.6.4
@@ -11,3 +11,4 @@ sqlitedict==1.6.0
 deprecated==1.2.4
 hyperopt==0.1.1
 pytorch-pretrained-bert==0.4.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
